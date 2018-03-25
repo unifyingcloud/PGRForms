@@ -1,0 +1,1111 @@
+[
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "I) Averiguación"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Número de averiguación previa o carpeta de investigación",
+		"description": "Debe capturar este formato:  FED/SEIDF/ UEIDT-  /000000/2017",
+		"placeholder": "FED/SEIDF/ UEIDT-  /000000/2017",
+		"className": "form-control ns_ spacing",
+		"name": "text-1521204256209",
+		"subtype": "text",
+		"maxlength": "15"
+	},
+	{
+		"type": "date",
+		"required": true,
+		"label": "II)Fecha de Inicio de la carpeta de investigacion",
+		"description": "Por favor capture la fecha",
+		"placeholder": "01/01/2018",
+		"className": "form-control ns_ spacing",
+		"name": "date2"
+	},
+	{
+		"type": "select",
+		"required": true,
+		"label": "<span style=\"color: rgb(84, 84, 84); font-size: 18px; font-weight: 700;\">III) Delito por el que se inicia la carpeta de investigación</span>",
+		"placeholder": "Seleccione",
+		"className": "form-control spacing",
+		"name": "select-1521636524684",
+		"values": [
+			{
+				"label": "Inhumanos o degradantes",
+				"value": "opcin-1",
+				"selected": true
+			},
+			{
+				"label": "Tratos o penas crueles",
+				"value": "opcin-2"
+			},
+			{
+				"label": "Delitos vinculados descritos en los art. 30 Y 31 de la ley general",
+				"value": "opcin-3"
+			},
+			{
+				"label": "Tortura",
+				"value": "op4"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "IV) Datos de la investigación de origen",
+		"className": "spacing"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "Carpeta de investigación de origen",
+		"className": "spacing"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "Autoridad ministerial",
+		"className": "spacing"
+	},
+	{
+		"type": "text",
+		"label": "Juzgado",
+		"className": "form-control ns_",
+		"name": "text-1521204256255",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"label": "Proceso",
+		"className": "form-control ns_",
+		"name": "text-1521204256260",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"label": "Delito",
+		"className": "form-control ns_",
+		"name": "text-1521204256265",
+		"subtype": "text"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "Datos de la puesta a disposición",
+		"className": "spacing"
+	},
+	{
+		"type": "autocomplete",
+		"required": true,
+		"label": "Estado",
+		"placeholder": "Estado",
+		"className": "form-control ns_",
+		"name": "autocomplete9",
+		"values": [
+			{
+				"label": "AGUASCALIENTES",
+				"value": "Aguascalientes"
+			},
+			{
+				"label": "BAJA CALIFORNIA",
+				"value": "Baja California"
+			},
+			{
+				"label": "BAJA CALIFORNIA SUR",
+				"value": "Baja California Sur"
+			},
+			{
+				"label": "CAMPECHE",
+				"value": "Campeche"
+			},
+			{
+				"label": "COAHUILA",
+				"value": "Coahuila"
+			},
+			{
+				"label": "COLIMA",
+				"value": "Colima"
+			},
+			{
+				"label": "CHIAPAS",
+				"value": "Chiapas"
+			},
+			{
+				"label": "CHIHUAUA",
+				"value": "Chiuahua"
+			},
+			{
+				"label": "CIUDAD DE MÉXICO",
+				"value": "Ciudad de México"
+			},
+			{
+				"label": "DURANGO",
+				"value": "Durango"
+			},
+			{
+				"label": "GUANAJUATO",
+				"value": "Guanajuato"
+			},
+			{
+				"label": "GUERRERO",
+				"value": "Guerrero"
+			},
+			{
+				"label": "HIDALGO",
+				"value": "Hidalgo"
+			},
+			{
+				"label": "JALISCO",
+				"value": "Jalisco"
+			},
+			{
+				"label": "ESTADO DE MÉXICO",
+				"value": "Estado de México"
+			},
+			{
+				"label": "MICHOACÁN",
+				"value": "Michoacán"
+			},
+			{
+				"label": "MORELOS",
+				"value": "Morelos"
+			},
+			{
+				"label": "NAYARIT",
+				"value": "Nayarit"
+			},
+			{
+				"label": "NUEVO LEÓN",
+				"value": "Nuevo León"
+			},
+			{
+				"label": "OAXACA",
+				"value": "Oaxaca"
+			},
+			{
+				"label": "PUEBLA",
+				"value": "Puebla"
+			},
+			{
+				"label": "QUERÉTARO",
+				"value": "Querétaro"
+			},
+			{
+				"label": "QUINTANA ROO",
+				"value": "Quintana Roo"
+			},
+			{
+				"label": "SAN LUIS POTOSÍ",
+				"value": "San Luis Potosí"
+			},
+			{
+				"label": "SINALOA",
+				"value": "Sinaloa"
+			},
+			{
+				"label": "SONORA",
+				"value": "Sonora"
+			},
+			{
+				"label": "TABASCO",
+				"value": "Tabasco"
+			},
+			{
+				"label": "TAMAULIPAS",
+				"value": "Tamaulipas"
+			},
+			{
+				"label": "TLAXCALA",
+				"value": "Tlaxcala"
+			},
+			{
+				"label": "VERACRUZ",
+				"value": "Veracruz"
+			},
+			{
+				"label": "YUCATÁN",
+				"value": "Yucatán"
+			},
+			{
+				"label": "ZACATECAS",
+				"value": "Zacatecas"
+			}
+		]
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Municipio",
+		"description": "Municipio",
+		"placeholder": "Municipio",
+		"className": "form-control ns_",
+		"name": "text-1521204256315",
+		"subtype": "text"
+	},
+	{
+		"type": "date",
+		"label": "Fecha",
+		"className": "form-control ns_",
+		"name": "date11"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "V) Información referente a las probables víctimas​",
+		"className": "spacing"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "V.I) Generales de la Victima​",
+		"className": "spacing"
+	},
+	{
+		"type": "text",
+		"label": "Nombre(s)",
+		"description": "Nombre(S)",
+		"className": "form-control ns_ spacing",
+		"name": "text-1521204256329",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"label": "Apellido Paterno",
+		"description": "Apellido Paterno",
+		"className": "form-control ns_ spacing",
+		"name": "text-1521204256332",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"label": "Apellido materno",
+		"description": "Apellido Materno",
+		"className": "form-control ns_ spacing",
+		"name": "text-1521204256335",
+		"subtype": "text"
+	},
+	{
+		"type": "select",
+		"label": "Cuenta con medidas de protección",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521907758800",
+		"values": [
+			{
+				"label": "Si",
+				"value": "Si"
+			},
+			{
+				"label": "No",
+				"value": "No"
+			}
+		]
+	},
+	{
+		"type": "number",
+		"label": "Edad",
+		"placeholder": "Edad",
+		"className": "form-control ns_",
+		"name": "number-1521204256373",
+		"min": "0",
+		"max": "120",
+		"step": "1"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "V.II) Datos recabados de conformidad con lo establecido en el artículo 27 fracc. II, III, V, VI, VII y VIII, de la Ley general para prevenir, investigar y sancionar la tortura y otros tratos y penas crueles, inhumanos o degradantes.​",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Estado de gestación",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521908006605",
+		"values": [
+			{
+				"label": "Si",
+				"value": "Si"
+			},
+			{
+				"label": "No",
+				"value": "No"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Pertenece a alguna etnia",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521908043117",
+		"values": [
+			{
+				"label": "Si",
+				"value": "Si"
+			},
+			{
+				"label": "No",
+				"value": "No"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Actividad",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521908071217",
+		"values": [
+			{
+				"label": "Periodista",
+				"value": "Periodista"
+			},
+			{
+				"label": "Defensor de los derechos humanos",
+				"value": "Defensor de los derechos humanos"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Discapacidad",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521908116264",
+		"values": [
+			{
+				"label": "Si",
+				"value": "Si"
+			},
+			{
+				"label": "No",
+				"value": "No"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Nacionalidad",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521908134899",
+		"values": [
+			{
+				"label": "Mexicana",
+				"value": "Mexicana"
+			},
+			{
+				"label": "Otra",
+				"value": "Otra"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Género",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521908170675",
+		"values": [
+			{
+				"label": "Hombre",
+				"value": "Hombre"
+			},
+			{
+				"label": "Mujer",
+				"value": "Mujer"
+			},
+			{
+				"label": "Otra Orientacion",
+				"value": "Otra orientacion"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "VI) Situación jurídica de la probable víctima ó víctimas",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"required": true,
+		"label": "Libre o en proceso",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "selectlibreproceso",
+		"values": [
+			{
+				"label": "Proceso",
+				"value": "Proceso"
+			},
+			{
+				"label": "Libre",
+				"value": "Libre"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Proceso",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "selproceso",
+		"values": [
+			{
+				"label": "En libertad",
+				"value": "En libertad"
+			},
+			{
+				"label": "En reclusión",
+				"value": "En reclusión"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Sentenciado",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "selsentenciado",
+		"values": [
+			{
+				"label": "Absuelto",
+				"value": "Absuelto"
+			},
+			{
+				"label": "Condenado",
+				"value": "Condenado"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "VII) Denunciante",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Denunciante",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521909087483",
+		"values": [
+			{
+				"label": "Particular",
+				"value": "Particular"
+			},
+			{
+				"label": " Vista Judicial",
+				"value": "Condenado Vista Judicial"
+			},
+			{
+				"label": "Vista Ministerial",
+				"value": "Vista Ministerial"
+			},
+			{
+				"label": "Vista Peritos",
+				"value": "Vista Peritos"
+			},
+			{
+				"label": "Particular",
+				"value": "Particular"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Servidor público",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521909256179",
+		"values": [
+			{
+				"label": "Nivel estatal",
+				"value": "Nivel estatal"
+			},
+			{
+				"label": "Nivel federal",
+				"value": "Nivel federal"
+			},
+			{
+				"label": "Nivel municipal",
+				"value": "Nivel municipal"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "VIII) Las autoridades señaladas como probables responsables",
+		"className": "spacing"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "Nivel Federal",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Autoridad",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521909580933",
+		"values": [
+			{
+				"label": "Secretaria de marina",
+				"value": "Secretaria de marina"
+			},
+			{
+				"label": "Sedena",
+				"value": "Sedena"
+			},
+			{
+				"label": "Policía federal",
+				"value": "Policía federal"
+			},
+			{
+				"label": "Policía federal ministerial",
+				"value": "Policía federal ministerial"
+			},
+			{
+				"label": "Ministerio público",
+				"value": "Ministerio público"
+			},
+			{
+				"label": "Ceferesos",
+				"value": "Ceferesos"
+			},
+			{
+				"label": "Migración",
+				"value": "Migración"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Poder legislativo",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910028775",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Poder judicial",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910070470",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Más dependencias",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910085296",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "checkbox-group",
+		"label": "Particular conforme a lo que establece el art. 25 de la ley general",
+		"name": "checkbox-group-1521910274259",
+		"values": [
+			{
+				"label": "Particular",
+				"value": "Particular"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "Nivel estatal",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Autoridad",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910443296",
+		"values": [
+			{
+				"label": "S.S.P. Estatal",
+				"value": "S.S.P. Estatal"
+			},
+			{
+				"label": "Policía ministerial",
+				"value": "Policía ministerial"
+			},
+			{
+				"label": "Poder legislativo",
+				"value": "Poder legislativo"
+			},
+			{
+				"label": "Ministerio público",
+				"value": "Ministerio público"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Poder judicial",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910461298",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Dependencia",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910467762",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Cargo",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910520925",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "&nbsp;",
+		"className": "spacing"
+	},
+	{
+		"type": "checkbox-group",
+		"label": "Particular conforme a lo que establece el art. 25 de la ley general",
+		"name": "checkbox-group-1521910548870",
+		"values": [
+			{
+				"label": "Particular",
+				"value": "Particular"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "Nivel municipal",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Autoridad",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910667838",
+		"values": [
+			{
+				"label": "Policía Municipal",
+				"value": "Policía Municipal"
+			},
+			{
+				"label": "Cabildo",
+				"value": "Cabildo"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Cargo",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910721703",
+		"values": [
+			{
+				"label": "Catalogo",
+				"value": "Catalogo",
+				"selected": true
+			},
+			{
+				"label": "Catalogo",
+				"value": "Catalogo"
+			}
+		]
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "&nbsp;",
+		"className": "spacing"
+	},
+	{
+		"type": "checkbox-group",
+		"label": "Particular conforme a lo que establece el art. 25 de la ley general",
+		"name": "checkbox-group-1521910733023",
+		"values": [
+			{
+				"label": "Particular",
+				"value": "Particular"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "XI) Lugar de los hechos",
+		"className": "spacing"
+	},
+	{
+		"type": "date",
+		"label": "Fecha",
+		"className": "form-control ns_",
+		"name": "date36"
+	},
+	{
+		"type": "autocomplete",
+		"required": true,
+		"label": "Estado",
+		"className": "form-control ns_",
+		"name": "autocomplete37",
+		"values": [
+			{
+				"label": "",
+				"value": ""
+			}
+		]
+	},
+	{
+		"type": "text",
+		"label": "Municipio",
+		"description": "Municipio",
+		"className": "form-control ns_",
+		"name": "text-1521204256551",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"label": "Localidad",
+		"description": "Localidad",
+		"className": "form-control ns_",
+		"name": "text-1521204256552",
+		"subtype": "text"
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "X) Circunstancias",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"required": true,
+		"label": "Delito de tortura",
+		"placeholder": "Seleccione",
+		"className": "form-control",
+		"name": "select-1521910851849",
+		"values": [
+			{
+				"label": "Tortura en la detención",
+				"value": "Tortura en la detención"
+			},
+			{
+				"label": "Tortura con la autoridad ministerial",
+				"value": "Tortura con la autoridad ministerial"
+			},
+			{
+				"label": "Tortura en el centro penitenciario",
+				"value": "Tortura en el centro penitenciario"
+			},
+			{
+				"label": "Tortura en el traslado",
+				"value": "Tortura en el traslado"
+			},
+			{
+				"label": "Tortura en el arraigo",
+				"value": "Tortura en el arraigo"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Delito tratos o penas crueles, inhumanos o degradantes",
+		"className": "form-control",
+		"name": "select-1521910981590",
+		"values": [
+			{
+				"label": "Malos tratos en la detención",
+				"value": "Malos tratos  en la detención"
+			},
+			{
+				"label": "Malos tratos  con la autoridad ministerial",
+				"value": "Malos tratos  con la autoridad ministerial"
+			},
+			{
+				"label": "Malos tratos  en el centro penitenciario",
+				"value": "Malos tratos  en el centro penitenciario"
+			},
+			{
+				"label": "Malos tratos  en el traslado",
+				"value": "Malos tratos  en el traslado"
+			},
+			{
+				"label": "Malos tratos  en el arraigo",
+				"value": "Malos tratos  en el arraigo"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "XI) Técnicas utilizadas como actos de tortura",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Técnicas:",
+		"className": "form-control spacing",
+		"name": "select-1521911065753",
+		"values": [
+			{
+				"label": "Que causen dolor o sufrimiento físico y/o psiquiátrico",
+				"value": "Que causen dolor o sufrimiento físico y/o psiquiátrico"
+			},
+			{
+				"label": "Conducta tendiente o capáz de disminuir o anular la personalidad o su capacidad física o psicológica",
+				"value": "Conducta tendiente o capáz de disminuir o anular la personalidad o su capacidad física o psicológica"
+			},
+			{
+				"label": "Realizar procedimientos médicos o científicos sin su consentimiento o de quien legalmente lo otorga.",
+				"value": "Realizar procedimientos médicos o científicos sin su consentimiento o de quien legalmente lo otorga."
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "XII) Técnicas utilizadas como actos de tratos o penas crueles, inhumanos o degradantes",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Técnicas:",
+		"className": "form-control spacing",
+		"name": "select-1521911320456",
+		"values": [
+			{
+				"label": "Intimidación",
+				"value": "Intimidación"
+			},
+			{
+				"label": "Discriminación",
+				"value": "Discriminación"
+			},
+			{
+				"label": "Vejación",
+				"value": "Vejación"
+			},
+			{
+				"label": "Maltrato degradante",
+				"value": "Maltrato degradante"
+			},
+			{
+				"label": "Insultos y/o humillaciones",
+				"value": "Insultos y/o humillaciones"
+			}
+		]
+	},
+	{
+		"type": "header",
+		"subtype": "h3",
+		"label": "XIII) Estatus de la investigación",
+		"className": "spacing"
+	},
+	{
+		"type": "select",
+		"label": "Estatus",
+		"className": "form-control spacing",
+		"name": "select-1521911520711",
+		"values": [
+			{
+				"label": "Investigación inicial",
+				"value": "Investigación inicial"
+			},
+			{
+				"label": "Archivo temporal",
+				"value": "Archivo temporal"
+			},
+			{
+				"label": "No ejercicio de la acción penal",
+				"value": "No ejercicio de la acción penal"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"required": true,
+		"label": "Cuenta con examen médico psicológico especializado",
+		"placeholder": "Seleccione",
+		"className": "form-control spacing",
+		"name": "selexamenmedico",
+		"values": [
+			{
+				"label": "Si",
+				"value": "Si"
+			},
+			{
+				"label": "No",
+				"value": "No"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Tiene examen médico",
+		"className": "form-control spacing",
+		"name": "selsitieneexamen",
+		"values": [
+			{
+				"label": "Oficial",
+				"value": "Oficial"
+			},
+			{
+				"label": "Independiente",
+				"value": "Independiente"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Razón por la que no tiene examen médico",
+		"className": "form-control spacing",
+		"name": "selnotieneexamen",
+		"values": [
+			{
+				"label": "Sin solicitar",
+				"value": "Sin solicitar"
+			},
+			{
+				"label": "Negativa de la víctima",
+				"value": "Negativa de la víctima"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Juduailzación",
+		"className": "form-control",
+		"name": "select-1521911787853",
+		"values": [
+			{
+				"label": "Solicitud de orden de aprehensión",
+				"value": "Solicitud de orden de aprehensión"
+			},
+			{
+				"label": "Vinculación a proceso",
+				"value": "Vinculación a proceso"
+			},
+			{
+				"label": "Investigación complementaria",
+				"value": "Investigación complementaria"
+			},
+			{
+				"label": "Etapa intermedia",
+				"value": "Etapa intermedia"
+			},
+			{
+				"label": "Etapa de juicio",
+				"value": "Etapa de juicio"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"label": "Sentencia",
+		"className": "form-control",
+		"name": "select-1521911881575",
+		"values": [
+			{
+				"label": "Absuelto",
+				"value": "Absuelto",
+				"selected": true
+			},
+			{
+				"label": "Condenado",
+				"value": "Condenado"
+			}
+		]
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "&nbsp;",
+		"className": "spacing"
+	},
+	{
+		"type": "button",
+		"subtype": "submit",
+		"label": "Enviar",
+		"className": "btn spacing btn-success",
+		"name": "cmb_enviar",
+		"value": "Enviar",
+		"style": "success"
+	}
+]

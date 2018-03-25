@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{D8B4528F-3F97-43F3-998E-98FBE4C9A7A0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PGRForms Status">
+    <Files>
+      <File FileName="PGRForms Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PGRForms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/Controllers/ResponsesController.cs" relfile="PGRForms/Controllers/ResponsesController.cs" line="47" column="27" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

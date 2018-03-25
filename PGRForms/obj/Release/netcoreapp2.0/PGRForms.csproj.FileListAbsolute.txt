@@ -1,0 +1,10 @@
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/bin/Release/netcoreapp2.0/PGRForms.deps.json
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/bin/Release/netcoreapp2.0/PGRForms.runtimeconfig.json
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/bin/Release/netcoreapp2.0/PGRForms.runtimeconfig.dev.json
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/bin/Release/netcoreapp2.0/PGRForms.dll
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/bin/Release/netcoreapp2.0/PGRForms.pdb
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/obj/Release/netcoreapp2.0/PGRForms.csproj.CoreCompileInputs.cache
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/obj/Release/netcoreapp2.0/PGRForms.AssemblyInfoInputs.cache
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/obj/Release/netcoreapp2.0/PGRForms.AssemblyInfo.cs
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/obj/Release/netcoreapp2.0/PGRForms.dll
+/Users/jonatancisnerosrodriguez/Documents/GitHub/PGRForms/PGRForms/obj/Release/netcoreapp2.0/PGRForms.pdb
